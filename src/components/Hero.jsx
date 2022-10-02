@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdWork } from "react-icons/md";
 import { GoMarkGithub } from "react-icons/go";
-import { SiNotion } from "react-icons/si";
+import { TbError404 } from "react-icons/tb";
 
 import { Outlet, Link } from "react-router-dom";
 
@@ -35,15 +35,15 @@ const Hero = () => {
           <GoMarkGithub className="w-10 h-10 ml-4 mt-1 text-white animate-pulse"></GoMarkGithub>
           <span className="py-3 text-xl font-primary text-white ">GitHub</span>
         </a>
-        <a
-          href="https://gussdev.notion.site/Desarrollo-Web-cd33325b6e8b4db9bf28271a31d3743a"
-          target="_blank"
-          rel="noreferrer"
+        <Link
+          to="/404page"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black"
         >
-          <SiNotion className="w-10 h-10 ml-4 mt-1 text-white animate-pulse"></SiNotion>
-          <span className="py-3 text-xl font-primary text-white ">Notion</span>
-        </a>
+          <TbError404 className="w-10 h-10 ml-4 mt-1 text-white animate-pulse"></TbError404>
+          <span className="py-3 text-xl font-primary text-white ">
+            404 Page
+          </span>
+        </Link>
         <div className="py-6 ">
           <div className="rounded-[36px] overflow-hidden">
             <iframe
