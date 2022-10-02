@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 //import components
 import Header from "./components/Header";
 import Nav from "./components/Nav";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import NoPage from "./pages/NoPage";
@@ -16,8 +16,7 @@ const App = () => {
         <Route path="/" element={<Header />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/404" element={<NoPage />} />
-        <Route path="*" element={<Navigate replace to="/404" />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
       <Footer />
     </div>
