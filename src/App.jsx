@@ -13,10 +13,11 @@ const App = () => {
     <div className="md:px-28 lg:px-40  xl:px-96 px-5 py-9 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500">
       <Nav />
       <Routes>
-        <Route path="/" element={<Header />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="*" element={<NoPage />} />
+        <Route path="/" element={<Header />}>
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
       </Routes>
       <Footer />
     </div>
