@@ -73,7 +73,7 @@ export const projectsModal1 = [
     name: "1 API Rick And Morty",
     hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-1",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
     modalimage: ModalImg1,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
@@ -87,7 +87,7 @@ export const projectsModal2 = [
     name: "2 API Rick And Morty",
     hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-2",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons, react router dom",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
     modalimage: ModalImg2,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
@@ -101,7 +101,7 @@ export const projectsModal3 = [
     name: "3 API Rick And Morty",
     hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-3",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging.",
     modalimage: ModalImg3,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
@@ -115,7 +115,7 @@ export const projectsModal4 = [
     name: " API GitHub",
     hrefReport: "https://github.com/gustavopumachagua/API-GITHUB",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
     modalimage: ModalImg4,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
@@ -129,7 +129,7 @@ export const projectsModal5 = [
     name: "1 Portfolio",
     hrefReport: "https://github.com/gustavopumachagua/GussDev",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss.",
     modalimage: ModalImg5,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
@@ -143,7 +143,7 @@ export const projectsModal6 = [
     name: "2 Portfolio",
     hrefReport: "https://github.com/gustavopumachagua/sitio-web",
     description:
-      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons, react router dom",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging.",
     modalimage: ModalImg6,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
