@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { projectsModal2 } from "../../data";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);
@@ -43,7 +45,10 @@ const Modal = () => {
                       </button>
                       <div className="flex flex-col md:flex-row space-x-4">
                         <div className="pl-3 md:w-96">
-                          <img
+                          <LazyLoadImage
+                            width="100%"
+                            min-height="144"
+                            effect="blur"
                             className="rounded-2xl h-96 w-64 "
                             src={modalimage}
                             alt="imagen modal"

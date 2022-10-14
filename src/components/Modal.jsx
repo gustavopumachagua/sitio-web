@@ -9,6 +9,8 @@ import { SiPlatzi } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
 import { ImTwitter } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Modal() {
   const [showModal, setShowModal] = React.useState(false);
@@ -37,7 +39,13 @@ export default function Modal() {
                     <div className="flex flex-col gap-y-2 justify-center">
                       <div className="flex justify-center">
                         <figure className="rounded-full w-16 h-16 border-2 border-black bg-white">
-                          <img className="w-16 h-16" src={perfil} />
+                          <LazyLoadImage
+                            width="100%"
+                            min-height="144"
+                            effect="blur"
+                            className="w-16 h-16"
+                            src={perfil}
+                          />
                         </figure>
                       </div>
                       <h3 className="text-xl font-semibold font-primary">

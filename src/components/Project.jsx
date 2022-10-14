@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Project = ({ item }) => {
   return (
@@ -7,7 +9,10 @@ const Project = ({ item }) => {
       className="flex flex-col items-center text-center shadow-2xl rounded-2xl bg-slate-200 px-2 py-2"
     >
       <div className="mb-4">
-        <img
+        <LazyLoadImage
+          width="100%"
+          min-height="144"
+          effect="blur"
           className="rounded-2xl h-36 w-36"
           src={item.image}
           alt="projects"

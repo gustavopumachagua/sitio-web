@@ -32,12 +32,12 @@ import Modal25 from "./components/modal/Modal25";
 import Modal26 from "./components/modal/Modal26";
 
 //modal imagen
-import ModalImg1 from "./assets/modal-img/1.png";
-import ModalImg2 from "./assets/modal-img/2.png";
-import ModalImg3 from "./assets/modal-img/3.png";
-import ModalImg4 from "./assets/modal-img/4.png";
-import ModalImg5 from "./assets/modal-img/5.png";
-import ModalImg6 from "./assets/modal-img/6.png";
+import ModalImg1 from "./assets/modal-img/api-rick-and-morty-1.png";
+import ModalImg2 from "./assets/modal-img/api-rick-and-morty-2.png";
+import ModalImg3 from "./assets/modal-img/api-rick-and-morty-3.png";
+import ModalImg4 from "./assets/modal-img/api-github.png";
+import ModalImg5 from "./assets/modal-img/sitio_web.png";
+import ModalImg6 from "./assets/modal-img/sitio-web.png";
 import ModalImg7 from "./assets/modal-img/7.jpg";
 import ModalImg8 from "./assets/modal-img/8.jpg";
 import ModalImg9 from "./assets/modal-img/9.jpg";
@@ -60,95 +60,95 @@ import ModalImg25 from "./assets/modal-img/25.png";
 import ModalImg26 from "./assets/modal-img/26.jpg";
 
 // projects images
-import Project1 from "./assets/projects/p1.png";
-import Project2 from "./assets/projects/p2.jpg";
-import Project3 from "./assets/projects/p3.jpg";
-import Project4 from "./assets/projects/p4.jpg";
-import Project5 from "./assets/projects/p5.jpg";
-import Project6 from "./assets/projects/p6.jpg";
+import Project1 from "./assets/projects/api-rick-and-morty-1.jpg";
+import Project2 from "./assets/projects/api-rick-and-morty-2.jpg";
+import Project3 from "./assets/projects/api-rick-and-morty-3.jpg";
+import Project4 from "./assets/projects/api-github.png";
+import Project5 from "./assets/projects/sitio-web.png";
+import Project6 from "./assets/projects/sitio_web.jpg";
 
 //projectsModal
 export const projectsModal1 = [
   {
-    name: "Piedra, Papel o Tijera",
-    hrefReport: "https://github.com/gustavopumachagua/PlayJS",
+    name: "1 API Rick And Morty",
+    hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-1",
     description:
-      "Juegos de Papel, piedra o Tijera. Hecho con HTML, CSS, JavaScript.",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
     modalimage: ModalImg1,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://play-js-two.vercel.app/",
+    hrefModal: "https://api-rick-and-morty-1.vercel.app/",
   },
 ];
 
 export const projectsModal2 = [
   {
-    name: "1 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/1-api-rick-and-morty",
+    name: "2 API Rick And Morty",
+    hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-2",
     description:
-      "Aplicacion web, consumiendo la API de Rick And Morty, hecho con HTML, CSS, JavaScript.",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons, react router dom",
     modalimage: ModalImg2,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://1-api-rick-and-morty.vercel.app/",
+    hrefModal: "https://api-rick-and-morty-2.vercel.app/",
   },
 ];
 
 export const projectsModal3 = [
   {
-    name: "2 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/2-api-rick-and-morty",
+    name: "3 API Rick And Morty",
+    hrefReport: "https://github.com/gustavopumachagua/API-RICK-AND-MORTY-3",
     description:
-      "Aplicacion web, consumiendo la API de Rick And Morty, hecho con HTML, CSS, JavaScript.",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
     modalimage: ModalImg3,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://2-api-rick-and-morty.vercel.app/",
+    hrefModal: "https://api-rick-and-morty-3.vercel.app/",
   },
 ];
 
 export const projectsModal4 = [
   {
-    name: "3 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/3-api-rick-and-morty",
+    name: " API GitHub",
+    hrefReport: "https://github.com/gustavopumachagua/API-GITHUB",
     description:
-      "Aplicacion web, consumiendo la API de Rick And Morty, hecho con HTML, CSS, JavaScript.",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
     modalimage: ModalImg4,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://3-api-rick-and-morty.vercel.app/",
+    hrefModal: "https://api-github-eta.vercel.app/",
   },
 ];
 
 export const projectsModal5 = [
   {
-    name: "4 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/4-api-rick-and-morty",
+    name: "1 Portfolio",
+    hrefReport: "https://github.com/gustavopumachagua/GussDev",
     description:
-      "Aplicacion web, consumiendo la API de Rick And Morty, hecho con HTML, CSS, JavaScript.",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons",
     modalimage: ModalImg5,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://4-api-rick-and-morty.vercel.app/",
+    hrefModal: "https://gussdev.vercel.app/",
   },
 ];
 
 export const projectsModal6 = [
   {
-    name: "5 API Rick And Morty",
-    hrefReport: "https://github.com/gustavopumachagua/5-api-rick-and-morty",
+    name: "2 Portfolio",
+    hrefReport: "https://github.com/gustavopumachagua/sitio-web",
     description:
-      "Aplicacion web, consumiendo la API de Rick And Morty, hecho con HTML, CSS, JavaScript.",
+      "this project was developed with the Api Rick And Morty. the project is developed in Reactjs and Tailwindcss and vitejs packaging. dependencies: react-lazy-load-image-component, react-icons, react router dom",
     modalimage: ModalImg6,
     icon: <FiXCircle />,
     iconModal: <GrDeploy />,
     iconReport: <FiGithub />,
-    hrefModal: "https://5-api-rick-and-morty.vercel.app/",
+    hrefModal: "https://gusscode.vercel.app/",
   },
 ];
 
@@ -436,43 +436,43 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "Piedra, Papel o Tijera",
-    category: "juegos JS",
+    name: "1 Api Rick And Morty",
+    category: "Projects with API",
     modal: <Modal1 />,
   },
   {
     id: "2",
     image: Project2,
-    name: "1 API Rick And Morty",
-    category: "Proyectos con API",
+    name: "2 API Rick And Morty",
+    category: "Projects with API",
     modal: <Modal2 />,
   },
   {
     id: "3",
     image: Project3,
-    name: "2 API Rick And Morty",
-    category: "proyectos con API",
+    name: "3 API Rick And Morty",
+    category: "Projects with API",
     modal: <Modal3 />,
   },
   {
     id: "4",
     image: Project4,
-    name: "3 API Rick And Morty",
-    category: "Proyectos con API",
+    name: "3 API GitHub",
+    category: "Projects with API",
     modal: <Modal4 />,
   },
   {
     id: "5",
     image: Project5,
-    name: "4 API Rick And Morty",
-    category: "Proyectos con API",
+    name: "1 Portfolio",
+    category: "WebSite",
     modal: <Modal5 />,
   },
   {
     id: "6",
     image: Project6,
-    name: "5 API Rick And Morty",
-    category: "Proyectos con APIs",
+    name: "2 Portfolio",
+    category: "WebSite",
     modal: <Modal6 />,
   },
   {

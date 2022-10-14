@@ -3,20 +3,28 @@ import PerfilDesktop from "../assets/perfil-desktop.svg";
 import CV from "../assets/pdf/Ansel-Cv.pdf";
 import Skills from "../components/Skills";
 import PerfilTablet from "../assets/perfil-table.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const About = () => {
   return (
     <div className="font-primary">
       <div className="flex flex-col gap-y-4 ">
-        <figure className="xl:hidden flex justify-center ">
-          <img
-            className="shadow-2xl rounded-2xl bg-slate-200"
+        <figure className="lg:hidden flex justify-center ">
+          <LazyLoadImage
+            width="95%"
+            min-height="144"
+            effect="blur"
+            className="shadow-2xl rounded-2xl bg-slate-200 ml-2 md:ml-3.5"
             src={PerfilDesktop}
           />
         </figure>
-        <figure className="hidden xl:flex justify-center ">
-          <img
-            className="shadow-2xl rounded-2xl bg-slate-200"
+        <figure className="hidden lg:flex justify-center ">
+          <LazyLoadImage
+            width="70%"
+            min-height="144"
+            effect="blur"
+            className="shadow-2xl rounded-2xl bg-slate-200 xl:ml-16 lg:ml-20 "
             src={PerfilTablet}
           />
         </figure>
