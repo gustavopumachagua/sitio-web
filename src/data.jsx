@@ -457,7 +457,7 @@ export const projectsData = [
   {
     id: "4",
     image: Project4,
-    name: "3 API GitHub",
+    name: "API GitHub",
     category: "Projects with API",
     modal: <Modal4 />,
   },
