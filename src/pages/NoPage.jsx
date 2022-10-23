@@ -5,7 +5,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 const NoPage = () => {
   return (
-    <div className="py-2 md:mb-60 xl:mb-auto">
+    <div className="py-2 md:mb-60 xl:mb-auto mt-16">
       <div className="px-4 py-4 flex justify-center ">
         <div className="flex flex-col space-y-4 ">
           <div className=" flex justify-center ">

@@ -12,16 +12,16 @@ const Hero = () => {
       <div className="flex flex-col gap-y-4 py-4  ">
         <Link
           to="/about"
-          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48 h-14 bg-black "
+          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48 h-14 bg-black hover:bg-slate-700 animate-[wiggle_3s_ease-in-out_infinite]"
         >
-          <BsFillPersonFill className="w-10 h-10 ml-4 mt-1 text-white animate-pulse "></BsFillPersonFill>
-          <span className="py-3 text-xl font-primary text-white ">About</span>
+          <BsFillPersonFill className="w-10 h-10 ml-3 mt-1 text-white  "></BsFillPersonFill>
+          <span className="py-3 text-xl font-primary text-white">About</span>
         </Link>
         <Link
           to="/portfolio"
-          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black"
+          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700"
         >
-          <MdWork className="w-10 h-10 ml-4 mt-1 text-white animate-pulse"></MdWork>
+          <MdWork className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></MdWork>
           <span className="py-3 text-xl font-primary text-white ">
             Portfolio
           </span>
@@ -30,16 +30,16 @@ const Hero = () => {
           href="https://github.com/gustavopumachagua"
           target="_blank"
           rel="noreferrer"
-          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black"
+          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700"
         >
-          <GoMarkGithub className="w-10 h-10 ml-4 mt-1 text-white animate-pulse"></GoMarkGithub>
+          <GoMarkGithub className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></GoMarkGithub>
           <span className="py-3 text-xl font-primary text-white ">GitHub</span>
         </a>
         <Link
           to="/404page"
-          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black"
+          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700"
         >
-          <TbError404 className="w-10 h-10 ml-4 mt-1 text-white animate-pulse"></TbError404>
+          <TbError404 className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></TbError404>
           <span className="py-3 text-xl font-primary text-white ">
             404 Page
           </span>

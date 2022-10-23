@@ -12,7 +12,14 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "translateX(-3%)" },
+          "50%": { transform: "translateX(3%)" },
+        },
+      },
+    },
   },
   plugins: [],
 };

@@ -1,10 +1,23 @@
-import { Outlet, Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 
 const Nav = () => {
+  const [bg, setBg] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      return window.scrollY > 20 ? setBg(true) : setBg(false);
+    });
+  });
   return (
-    <>
-      <header className="py-6 mb-12 border-b">
+    <div className="flex justify-center">
+      <header
+        className={`${
+          bg
+            ? "backdrop-blur-md bg-white/30 border-none px-2 rounded-2xl"
+            : "h-24"
+        }  fixed  lg:w-[36.4rem] w-[15rem] sm:w-[22rem] md:w-[35rem] top-0 py-6  border-b  z-10 transition-all duration-300  `}
+      >
         <div className="container mx-auto flex justify-between items-center">
           <Link to="/">
             <img src={Logo} alt="logo" />
@@ -19,8 +32,7 @@ const Nav = () => {
           </div>
         </div>
       </header>
-      <Outlet />
-    </>
+    </div>
   );
 };
 

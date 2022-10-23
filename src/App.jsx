@@ -7,10 +7,11 @@ import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import NoPage from "./pages/NoPage";
+import BackTopBtn from "./components/BackTopBtn";
 
 const App = () => {
   return (
-    <div className="md:px-28 lg:px-40  xl:px-96 px-5 py-9 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500">
+    <div className="md:px-28 lg:px-40  xl:px-96 px-5 py-9 bg-gradient-to-r from-zinc-500 via-gray-400 to-slate-500 ">
       <Nav />
       <Routes>
         <Route path="/" element={<Header />} />
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/*" element={<NoPage />} />
       </Routes>
       <Footer />
+      <BackTopBtn />
     </div>
   );
 };

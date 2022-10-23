@@ -8,7 +8,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 const About = () => {
   return (
-    <div className="font-primary">
+    <div className="font-primary mt-16 py-6">
       <div className="flex flex-col gap-y-4 ">
         <figure className="lg:hidden flex justify-center ">
           <LazyLoadImage

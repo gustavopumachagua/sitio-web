@@ -1,4 +1,3 @@
-import React from "react";
 //import components
 import perfil from "../assets/perfil.svg";
 import PerfilMobile from "../assets/perfil-mobile.svg";
@@ -11,9 +10,11 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Header = () => {
   return (
-    <header className="flex flex-col ">
+    <header className="flex flex-col mt-16">
       <div className="flex justify-end px-2 py-2 cursor-pointer">
-        <Modal />
+        <div className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300">
+          <Modal />
+        </div>
       </div>
       <div className="flex flex-row gap-4">
         <figure className="rounded-full w-20 h-20 border-2 border-black bg-white">
@@ -33,15 +34,15 @@ const Header = () => {
                 href="mailto:rpumachaguahuertas@gmail.com"
                 target="_blank"
                 rel="noreferrer"
-                className="cursor-pointer"
+                className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300"
               >
-                <GrMailOption className="w-6 h-6 text-slate-800" />
+                <GrMailOption className="w-6 h-6" />
               </a>
             </div>
           </div>
         </div>
       </div>
-      <figure className=" hidden py-9 lg:flex justify-center">
+      <figure className=" hidden py-8 lg:flex justify-center">
         <LazyLoadImage
           width="70%"
           min-height="144"
@@ -50,7 +51,7 @@ const Header = () => {
           className=" shadow-2xl rounded-2xl bg-slate-200 xl:ml-16 lg:ml-20 "
         />
       </figure>
-      <figure className=" lg:hidden py-9 flex justify-center">
+      <figure className=" lg:hidden py-8 flex justify-center">
         <LazyLoadImage
           width="95%"
           min-height="144"

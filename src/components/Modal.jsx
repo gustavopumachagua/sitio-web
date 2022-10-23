@@ -17,7 +17,7 @@ export default function Modal() {
   return (
     <>
       <CgExport
-        className="w-6 h-6 text-slate-900"
+        className="w-6 h-6 "
         type="button"
         onClick={() => setShowModal(true)}
       ></CgExport>
