@@ -15,7 +15,7 @@ const Hero = () => {
     <>
       <div className="flex flex-col gap-y-4 py-4  ">
         <a
-          href="https://github.com/gustavopumachagua"
+          href="https://gussdev.vercel.app/"
           target="_blank"
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700 animate-[wiggle_3s_ease-in-out_infinite]">
