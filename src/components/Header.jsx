@@ -3,14 +3,14 @@ import perfil from "../assets/perfil.svg";
 import PerfilMobile from "../assets/perfil-mobile.svg";
 import hero from "../assets/hero.svg";
 import { GrMailOption } from "react-icons/gr";
-import Modal from "./Modal";
 import Hero from "./Hero";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import Modal from "./Modal";
 
 const Header = () => {
   return (
-    <header className="flex flex-col mt-16">
+    <header className="flex flex-col mt-10">
       <div className="flex justify-end px-2 py-2 cursor-pointer">
         <div className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300">
           <Modal />
@@ -34,8 +34,7 @@ const Header = () => {
                 href="mailto:rpumachaguahuertas@gmail.com"
                 target="_blank"
                 rel="noreferrer"
-                className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300"
-              >
+                className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300">
                 <GrMailOption className="w-6 h-6" />
               </a>
             </div>
@@ -65,9 +64,7 @@ const Header = () => {
           <h2 className="font-bold text-2xl text-black">Hi, I'm Gustavo! ✌</h2>
         </div>
         <div className="flex justify-center py-2">
-          <p className="font-semibold text-lg text-black">
-            Front-end Developer
-          </p>
+          <p className="font-semibold text-lg text-black">Software Engineer</p>
         </div>
         <div className="flex justify-center py-2 px-4">
           <p className="font-semibold text-lg text-black">

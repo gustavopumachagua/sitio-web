@@ -17,21 +17,19 @@ export default function Modal() {
   return (
     <>
       <CgExport
-        className="w-6 h-6 "
+        className="w-6 h-6"
         type="button"
-        onClick={() => setShowModal(true)}
-      ></CgExport>
+        onClick={() => setShowModal(true)}></CgExport>
       {showModal ? (
         <>
-          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none backdrop-grayscale-0 bg-black/70">
-            <div className="relative w-auto my-6  mx-auto max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl">
+          <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0  outline-none focus:outline-none backdrop-grayscale-0 bg-black/70 z-50">
+            <div className="relative w-auto my-6  mx-auto max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl ">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="flex justify-end py-2 px-4">
                   <GrClose
                     className="text-black"
-                    onClick={() => setShowModal(false)}
-                  ></GrClose>
+                    onClick={() => setShowModal(false)}></GrClose>
                 </div>
                 {/*header*/}
                 <div className="flex justify-center px-2 ">
@@ -62,8 +60,7 @@ export default function Modal() {
                       href="https://twitter.com/Gussdev"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10 h-9 w-60 bg-black "
-                    >
+                      className="rounded-3xl border-2 border-white flex space-x-10 h-9 w-60 bg-black ">
                       <ImTwitter className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></ImTwitter>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on Twitter
@@ -73,8 +70,7 @@ export default function Modal() {
                       href="https://platzi.com/p/gustavopumachagua/"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10   h-9 w-full bg-black"
-                    >
+                      className="rounded-3xl border-2 border-white flex space-x-10   h-9 w-full bg-black">
                       <SiPlatzi className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiPlatzi>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on Platzi
@@ -84,19 +80,17 @@ export default function Modal() {
                       href="https://github.com/gustavopumachagua"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black"
-                    >
+                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
                       <GoMarkGithub className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></GoMarkGithub>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on GitHub
                       </span>
                     </a>
                     <a
-                      href="https://gussdev.notion.site/Desarrollo-Web-cd33325b6e8b4db9bf28271a31d3743a"
+                      href="https://www.notion.so/gussdev/Apuntes-3abec46a55c04b92ba7ea40f0ab117ba"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black"
-                    >
+                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
                       <SiNotion className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiNotion>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on Notion
@@ -106,8 +100,7 @@ export default function Modal() {
                       href="mailto:rpumachaguahuertas@gmail.com"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black"
-                    >
+                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
                       <MdEmail className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></MdEmail>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on Email
@@ -117,8 +110,7 @@ export default function Modal() {
                       href="https://www.instagram.com/guss.dev/"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black"
-                    >
+                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
                       <BsInstagram className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></BsInstagram>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on Instagram
@@ -131,8 +123,7 @@ export default function Modal() {
                   <button
                     className="text-white background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 bg-black rounded-3xl hover:bg-slate-700"
                     type="button"
-                    onClick={() => setShowModal(false)}
-                  >
+                    onClick={() => setShowModal(false)}>
                     Close
                   </button>
                 </div>
