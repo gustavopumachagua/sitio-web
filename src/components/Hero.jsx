@@ -8,7 +8,6 @@ import { BsTwitter } from "react-icons/bs";
 import { SiPlatzi } from "react-icons/si";
 import { BsSpotify } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -91,16 +90,6 @@ const Hero = () => {
           <BsLinkedin className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></BsLinkedin>
           <span className="py-3 text-xl font-primary text-white ">
             Linkedin
-          </span>
-        </a>
-        <a
-          href="https://www.facebook.com/gustavo.pumachaguaperez"
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
-          <BsFacebook className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></BsFacebook>
-          <span className="py-3 text-xl font-primary text-white ">
-            Facebook
           </span>
         </a>
         <div className="py-6 ">

@@ -64,7 +64,7 @@ const Header = () => {
           <h2 className="font-bold text-2xl text-black">Hi, I'm Gustavo! ✌</h2>
         </div>
         <div className="flex justify-center py-2">
-          <p className="font-semibold text-lg text-black">Software Engineer</p>
+          <p className="font-semibold text-lg text-black">Data Science</p>
         </div>
         <div className="flex justify-center py-2 px-4">
           <p className="font-semibold text-lg text-black">
