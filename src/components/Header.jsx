@@ -61,15 +61,15 @@ const Header = () => {
       </figure>
       <div>
         <div className="flex justify-center py-2">
-          <h2 className="font-bold text-2xl text-black">Hi, I'm Gustavo! ✌</h2>
-        </div>
-        <div className="flex justify-center py-2">
-          <p className="font-semibold text-lg text-black">Data Science</p>
+          <h2 className="font-bold text-2xl text-black">
+            Hola, soy Gustavo! ✌
+          </h2>
         </div>
         <div className="flex justify-center py-2 px-4">
           <p className="font-semibold text-lg text-black">
-            I'm Creative designer based in Lima-Peru, and i'm very passionate
-            and dedicated to my work.
+            Soy un Data Scientist con experiencia en la manipulación de datos y
+            la creación de modelos predictivos para resolver problemas
+            empresariales complejos 🤓.
           </p>
         </div>
       </div>

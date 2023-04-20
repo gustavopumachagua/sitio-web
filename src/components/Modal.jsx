@@ -57,26 +57,6 @@ export default function Modal() {
                 <div className="relative p-6 flex-auto">
                   <div className="flex flex-col gap-y-4 ">
                     <a
-                      href="https://twitter.com/Gussdev"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10 h-9 w-60 bg-black ">
-                      <ImTwitter className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></ImTwitter>
-                      <span className="py-1 text-base font-primary text-white ">
-                        Share on Twitter
-                      </span>
-                    </a>
-                    <a
-                      href="https://platzi.com/p/gustavopumachagua/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10   h-9 w-full bg-black">
-                      <SiPlatzi className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiPlatzi>
-                      <span className="py-1 text-base font-primary text-white ">
-                        Share on Platzi
-                      </span>
-                    </a>
-                    <a
                       href="https://github.com/gustavopumachagua"
                       target="_blank"
                       rel="noreferrer"
@@ -87,13 +67,13 @@ export default function Modal() {
                       </span>
                     </a>
                     <a
-                      href="https://www.notion.so/gussdev/Apuntes-3abec46a55c04b92ba7ea40f0ab117ba"
+                      href="https://twitter.com/Gussdev"
                       target="_blank"
                       rel="noreferrer"
-                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
-                      <SiNotion className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiNotion>
+                      className="rounded-3xl border-2 border-white flex space-x-10 h-9 w-60 bg-black ">
+                      <ImTwitter className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></ImTwitter>
                       <span className="py-1 text-base font-primary text-white ">
-                        Share on Notion
+                        Share on Twitter
                       </span>
                     </a>
                     <a
@@ -114,6 +94,26 @@ export default function Modal() {
                       <BsInstagram className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></BsInstagram>
                       <span className="py-1 text-base font-primary text-white ">
                         Share on Instagram
+                      </span>
+                    </a>
+                    <a
+                      href="https://www.notion.so/gussdev/Apuntes-3abec46a55c04b92ba7ea40f0ab117ba"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
+                      <SiNotion className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiNotion>
+                      <span className="py-1 text-base font-primary text-white ">
+                        Share on Notion
+                      </span>
+                    </a>
+                    <a
+                      href="https://platzi.com/p/gustavopumachagua/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-3xl border-2 border-white flex space-x-10   h-9 w-full bg-black">
+                      <SiPlatzi className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiPlatzi>
+                      <span className="py-1 text-base font-primary text-white ">
+                        Share on Platzi
                       </span>
                     </a>
                   </div>
