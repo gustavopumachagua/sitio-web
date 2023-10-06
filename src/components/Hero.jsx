@@ -1,6 +1,5 @@
 import React from "react";
 import { GoMarkGithub } from "react-icons/go";
-import { FaKaggle } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { SiNotion } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
@@ -75,14 +74,6 @@ const Hero = () => {
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
           <SiNotion className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></SiNotion>
           <span className="py-3 text-xl font-primary text-white ">Notion</span>
-        </a>
-        <a
-          href="https://www.kaggle.com/gussdev"
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
-          <FaKaggle className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></FaKaggle>
-          <span className="py-3 text-xl font-primary text-white ">Kaggle</span>
         </a>
         <a
           href="https://platzi.com/p/gustavopumachagua/"
