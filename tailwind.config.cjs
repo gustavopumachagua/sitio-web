@@ -3,8 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Roboto",
-      body: "Roboto",
+      mono: ["Roboto Mono", "sans-serif"],
     },
     screens: {
       sm: "300px",
@@ -18,6 +17,15 @@ module.exports = {
           "0%, 100%": { transform: "translateX(-3%)" },
           "50%": { transform: "translateX(3%)" },
         },
+      },
+      colors: {
+        darkgray: {
+          900: "#101010", // rgb(16, 16, 16)
+          700: "#404040", // rgb(64, 64, 64)
+        },
+      },
+      backgroundImage: {
+        "gradient-to-b": "linear-gradient(to bottom, #101010, #404040)",
       },
     },
   },

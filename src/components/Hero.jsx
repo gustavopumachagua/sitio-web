@@ -1,9 +1,9 @@
 import React from "react";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { SiNotion } from "react-icons/si";
-import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
+import { SiCoursera } from "react-icons/si";
+import { FaKaggle } from "react-icons/fa";
 import { SiPlatzi } from "react-icons/si";
 import { BsSpotify } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
@@ -18,17 +18,15 @@ const Hero = () => {
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700 animate-[wiggle_3s_ease-in-out_infinite]">
           <CgWebsite className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></CgWebsite>
-          <span className="py-3 text-xl font-primary text-white ">
-            Sitio Web
-          </span>
+          <span className="py-3 text-xl font-mono text-white ">Sitio Web</span>
         </a>
         <a
           href="https://github.com/gustavopumachagua"
           target="_blank"
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
-          <GoMarkGithub className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></GoMarkGithub>
-          <span className="py-3 text-xl font-primary text-white ">GitHub</span>
+          <FaGithub className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></FaGithub>
+          <span className="py-3 text-xl font-mono text-white ">GitHub</span>
         </a>
         <a
           href="https://github.com/gustavopumachagua"
@@ -36,27 +34,23 @@ const Hero = () => {
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
           <BsLinkedin className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></BsLinkedin>
-          <span className="py-3 text-xl font-primary text-white ">
-            Linkedin
-          </span>
+          <span className="py-3 text-xl font-mono text-white ">Linkedin</span>
         </a>
         <a
-          href="https://twitter.com/Gussdev"
+          href="https://www.kaggle.com/gussdev"
           target="_blank"
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
-          <BsTwitter className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></BsTwitter>
-          <span className="py-3 text-xl font-primary text-white ">Twitter</span>
+          <FaKaggle className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></FaKaggle>
+          <span className="py-3 text-xl font-mono text-white ">Kaggle</span>
         </a>
         <a
-          href="https://www.instagram.com/guss.dev/"
+          href="https://www.coursera.org/user/b44f9e277f7b4629b20076f77f2285bd"
           target="_blank"
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
-          <BsInstagram className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></BsInstagram>
-          <span className="py-3 text-xl font-primary text-white ">
-            Instagram
-          </span>
+          <SiCoursera className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></SiCoursera>
+          <span className="py-3 text-xl font-mono text-white ">Coursera</span>
         </a>
         <a
           href="https://open.spotify.com/user/12158138688?si=4798854e43b643c5"
@@ -64,7 +58,7 @@ const Hero = () => {
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
           <BsSpotify className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></BsSpotify>
-          <span className="py-3 text-xl font-primary text-white ">Spotify</span>
+          <span className="py-3 text-xl font-mono text-white ">Spotify</span>
         </a>
 
         <a
@@ -73,7 +67,7 @@ const Hero = () => {
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
           <SiNotion className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></SiNotion>
-          <span className="py-3 text-xl font-primary text-white ">Notion</span>
+          <span className="py-3 text-xl font-mono text-white ">Notion</span>
         </a>
         <a
           href="https://platzi.com/p/gustavopumachagua/"
@@ -81,7 +75,7 @@ const Hero = () => {
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">
           <SiPlatzi className="w-10 h-10 ml-3 mt-1 text-white animate-pulse"></SiPlatzi>
-          <span className="py-3 text-xl font-primary text-white ">Platzi</span>
+          <span className="py-3 text-xl font-mono text-white ">Platzi</span>
         </a>
         <div className="py-6 ">
           <div className="rounded-[36px] overflow-hidden">

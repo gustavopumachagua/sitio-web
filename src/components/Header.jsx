@@ -12,30 +12,32 @@ const Header = () => {
   return (
     <header className="flex flex-col mt-10">
       <div className="flex justify-end px-2 py-2 cursor-pointer">
-        <div className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300">
+        <div className="cursor-pointer hover:bg-slate-200 rounded-full h-9 w-9 flex justify-center  py-1 bg-slate-100">
           <Modal />
         </div>
       </div>
       <div className="flex flex-row gap-4">
-        <figure className="rounded-full w-20 h-20 border-2 border-black bg-white">
+        <figure className="rounded-full w-12 h-12 border-2 border-black bg-slate-200">
           <LazyLoadImage
             width="100%"
             min-height="144"
             effect="blur"
-            className=" w-20 h-20 "
+            className=" w-12 h-12"
             src={perfil}
           />
         </figure>
         <div>
-          <span className="text-2xl  font-primary font-semibold">GussDev</span>
+          <span className="text-2xl  font-mono font-semibold text-white">
+            GussDev
+          </span>
           <div className="py-3">
             <div className="flex justify-center">
               <a
                 href="mailto:rpumachaguahuertas@gmail.com"
                 target="_blank"
                 rel="noreferrer"
-                className="cursor-pointer hover:bg-slate-200 rounded-full h-11 w-11 flex justify-center  py-2 bg-slate-300">
-                <GrMailOption className="w-6 h-6" />
+                className="cursor-pointer hover:bg-slate-200 rounded-full h-8 w-8 flex justify-center  py-1.5 bg-slate-100">
+                <GrMailOption className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -43,7 +45,7 @@ const Header = () => {
       </div>
       <figure className=" hidden py-8 lg:flex justify-center">
         <LazyLoadImage
-          width="70%"
+          width="60%"
           min-height="144"
           effect="blur"
           src={hero}
@@ -61,15 +63,15 @@ const Header = () => {
       </figure>
       <div>
         <div className="flex justify-center py-2">
-          <h2 className="font-bold text-2xl text-black">
-            Hola, soy Gustavo! ✌
+          <h2 className="font-bold text-xl font-mono text-white">
+            Hola, soy Gustavo!
           </h2>
         </div>
         <div className="flex justify-center py-2 px-4">
-          <p className="font-semibold text-lg text-black">
+          <p className="font-semibold text-sm font-mono text-white">
             Soy un Data Scientist con experiencia en la manipulación de datos y
             la creación de modelos predictivos para resolver problemas
-            empresariales complejos 🤓.
+            empresariales complejos.
           </p>
         </div>
       </div>

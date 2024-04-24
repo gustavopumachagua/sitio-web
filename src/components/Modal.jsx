@@ -3,11 +3,11 @@ import React from "react";
 import { CgExport } from "react-icons/cg";
 import perfil from "../assets/perfil.svg";
 import { GrClose } from "react-icons/gr";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 import { SiNotion } from "react-icons/si";
 import { SiPlatzi } from "react-icons/si";
-import { BsInstagram } from "react-icons/bs";
-import { ImTwitter } from "react-icons/im";
+import { SiCoursera } from "react-icons/si";
+import { FaKaggle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -25,7 +25,7 @@ export default function Modal() {
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0  outline-none focus:outline-none backdrop-grayscale-0 bg-black/70 z-50">
             <div className="relative w-auto my-6  mx-auto max-w-xs md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl ">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-100 outline-none focus:outline-none">
                 <div className="flex justify-end py-2 px-4">
                   <GrClose
                     className="text-black"
@@ -36,7 +36,7 @@ export default function Modal() {
                   <div className="flex items-start justify-between p-2 ">
                     <div className="flex flex-col gap-y-2 justify-center">
                       <div className="flex justify-center">
-                        <figure className="rounded-full w-16 h-16 border-2 border-black bg-white">
+                        <figure className="rounded-full w-16 h-16 border-2 border-black bg-slate-200">
                           <LazyLoadImage
                             width="100%"
                             min-height="144"
@@ -46,7 +46,7 @@ export default function Modal() {
                           />
                         </figure>
                       </div>
-                      <h3 className="text-xl font-semibold font-primary">
+                      <h3 className="text-xl font-semibold font-mono">
                         @Gussdev
                       </h3>
                     </div>
@@ -61,19 +61,19 @@ export default function Modal() {
                       target="_blank"
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
-                      <GoMarkGithub className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></GoMarkGithub>
-                      <span className="py-1 text-base font-primary text-white ">
+                      <FaGithub className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></FaGithub>
+                      <span className="py-1 text-sm font-mono text-white ">
                         Share on GitHub
                       </span>
                     </a>
                     <a
-                      href="https://twitter.com/Gussdev"
+                      href="https://www.kaggle.com/gussdev"
                       target="_blank"
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10 h-9 w-60 bg-black ">
-                      <ImTwitter className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></ImTwitter>
-                      <span className="py-1 text-base font-primary text-white ">
-                        Share on Twitter
+                      <FaKaggle className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></FaKaggle>
+                      <span className="py-1 text-sm font-mono text-white ">
+                        Share on Kaggle
                       </span>
                     </a>
                     <a
@@ -82,18 +82,18 @@ export default function Modal() {
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
                       <MdEmail className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></MdEmail>
-                      <span className="py-1 text-base font-primary text-white ">
+                      <span className="py-1 text-sm font-mono text-white ">
                         Share on Email
                       </span>
                     </a>
                     <a
-                      href="https://www.instagram.com/guss.dev/"
+                      href="https://www.coursera.org/user/b44f9e277f7b4629b20076f77f2285bd"
                       target="_blank"
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
-                      <BsInstagram className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></BsInstagram>
-                      <span className="py-1 text-base font-primary text-white ">
-                        Share on Instagram
+                      <SiCoursera className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiCoursera>
+                      <span className="py-1 text-sm font-mono text-white ">
+                        Share on Coursera
                       </span>
                     </a>
                     <a
@@ -102,7 +102,7 @@ export default function Modal() {
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10  h-9 w-full bg-black">
                       <SiNotion className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiNotion>
-                      <span className="py-1 text-base font-primary text-white ">
+                      <span className="py-1 text-sm font-mono text-white ">
                         Share on Notion
                       </span>
                     </a>
@@ -112,7 +112,7 @@ export default function Modal() {
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10   h-9 w-full bg-black">
                       <SiPlatzi className="w-5 h-5 ml-4 mt-1 text-white animate-pulse"></SiPlatzi>
-                      <span className="py-1 text-base font-primary text-white ">
+                      <span className="py-1 text-sm font-mono text-white ">
                         Share on Platzi
                       </span>
                     </a>
