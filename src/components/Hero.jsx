@@ -29,7 +29,7 @@ const Hero = () => {
           <span className="py-3 text-xl font-mono text-white ">GitHub</span>
         </a>
         <a
-          href="https://github.com/gustavopumachagua"
+          href="https://www.linkedin.com/in/gustavopumachaguaperez/"
           target="_blank"
           rel="noreferrer"
           className="rounded-3xl border-2 border-white space-x-12 flex sm:space-x-24 md:space-x-48  h-14 bg-black hover:bg-slate-700">

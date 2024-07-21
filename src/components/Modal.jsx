@@ -1,5 +1,6 @@
 import React from "react";
 
+import { BsLinkedin } from "react-icons/bs";
 import { CgExport } from "react-icons/cg";
 import perfil from "../assets/perfil.svg";
 import { GrClose } from "react-icons/gr";
@@ -7,7 +8,6 @@ import { FaGithub } from "react-icons/fa";
 import { SiNotion } from "react-icons/si";
 import { SiPlatzi } from "react-icons/si";
 import { SiCoursera } from "react-icons/si";
-import { FaKaggle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -67,13 +67,13 @@ export default function Modal() {
                       </span>
                     </a>
                     <a
-                      href="https://www.kaggle.com/gussdev"
+                      href="https://www.linkedin.com/in/gustavopumachaguaperez/"
                       target="_blank"
                       rel="noreferrer"
                       className="rounded-3xl border-2 border-white flex space-x-10 h-9 w-60 bg-black ">
-                      <FaKaggle className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></FaKaggle>
+                      <BsLinkedin className="w-5 h-5 ml-4 mt-1 text-white animate-pulse "></BsLinkedin>
                       <span className="py-1 text-sm font-mono text-white ">
-                        Share on Kaggle
+                        Share on Linkedin
                       </span>
                     </a>
                     <a
